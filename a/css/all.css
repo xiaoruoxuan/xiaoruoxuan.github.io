@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+ul,li,h1,h2,h3,p{ 
+    padding:0; margin:0; 
+    /*内边距及边距均为0*/
+    list-style:none
+    /*设置列表项标记的类型为空*/
+}
+a{ 
+    text-decoration:none; 
+    /*没有文本装饰*/
+    color:#000
+    /*颜色*/
+}
+html{}
+body{ 
+    background:url(../images/bg.jpg) center top ;
+    /*背景图片，位置在中部上方*/
+    line-height:31px
+    /*文字高度*/
+}
+.main{ 
+    width:1000px; 
+    /*宽度*/
+    margin:20px auto
+    /*边距*/
+}
+.clear{ 
+    clear:both
+    /*清除浮动*/
+}
+.menu li{ 
+    list-style:none
+    /*设置列表项标记的类型为空*/
+}
+.head .fr{ 
+    margin-top:40px
+    /*设置上外边距*/
+}
+.banner{ 
+    position:relative; 
+    /*相对定位*/
+    margin-top:30px
+    /*设置上外边距*/
+}
+.menu{ 
+    width:100%; 
+    text-align:center;
+    /*文本水平对齐的方式*/
+    background:url(../images/menu.jpg); 
+    position:relative; 
+    z-index:55; 
+    /*在z轴方向上的位置*/
+    float:left}
+    /*图像移动至父元素左侧*/
+.menu li a{ 
+    color:#fff;
+}
+.menu li { 
+    float:left; 
+    margin:1px; 
+    font-weight:bold; 
+    /*文字字体加粗样式*/
+    font-size:16px;
+    /*字号*/  
+    padding:15px 30px ; 
+    width:180px}
+.content{ 
+    background:#bcc1ce; 
+    padding-bottom:20px;
+    /*下内边距*/
+    font-size:14px; 
+    display:inline-block ;  
+    /*触发块元素*/
+    width:100%
+}
+.end{ 
+    clear:both; 
+    background:#8eb1df; 
+    color:#fff; 
+    padding:20px 0; 
+    text-align:center;
+    /*垂直居中*/
+}
+.pad{ 
+    padding:20px; 
+    display:block
+}
+.scrollleft,.cc{ 
+    margin:0 10px
+}
+.scrollleft li{ 
+    width:315px; 
+    margin:5px; 
+    float:left
+}
+
+.fl{ float:left}.fr{ float:right}
+.js  div{ 
+    width:100%; 
+    clear:both; 
+    margin-bottom:20px; 
+    float:left
+}
+.bar{ 
+    margin:10px 20px;
+    clear:both; 
+    border-bottom:#6256aa dotted 1px; 
+    border-radius:20px;
+    /*设置圆角边*/
+    text-align:center; 
+    font-weight:bold; 
+    padding:5px; 
+    color:#fff; 
+    line-height:50px; 
+    font-size:20px
+}
+.bar span{ 
+    border:#8eb1df solid 1px; 
+    background:#8eb1df; 
+    display:inline-block; 
+    height:50px; 
+    width:200px;
+}
+.head{ 
+    color:#fff; 
+    font-size:36px; 
+    padding:20px 0
+}
+.cc li{ 
+    width:48%; 
+    margin:1%; 
+    float:left; 
+    text-align:center
+}
+.cc li img{ 
+    border:#6b639f solid 1px; 
+    padding:5px
+} 
+.aihao li{ 
+    margin:0 20px; 
+    clear:both; 
+    padding:20px 0
+}
+.aihao li span{ 
+    float:left; 
+    font-size:24px;
+    width:50%; 
+    text-align:center;
+}
+.aihao li img{ 
+    float:left; 
+    width:50%
+}
+.aihao li span b{ 
+    display:inline-block; 
+    /*触发块元素*/
+    border-bottom:#333 solid 1px; 
+    /*底部边框属性*/
+    margin-top:40px; padding:10px 20px;
+    border-top:#333 solid 1px;
+}
